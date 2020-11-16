@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="./maps.css" rel="stylesheet">
+  </head>
+  <body>
+      <h1>A list of my favorite restaurants in Stockholm</h1>
+    <div id="map"></div>
+    <div id="directions-panel"></div>
+    <button type="button">Directions from T-centralen to my favorite restaurant nearby</button>
+    <!-- Pass your API key instead of YOUR_API_KEY -->
+    <!-- https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGdburjix-rrxogO0qgSwKC8G8iCPzF2M&callback=initMap"></script>
+    <script src="./maps.js"></script>
+  </body>
+</html>
